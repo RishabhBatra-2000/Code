@@ -1,11 +1,9 @@
 // traversal of a linked list
 
 class LinkedList {
-
 	Node head; 
-
+	
 	static class Node {
-
 		int data;
 		Node next;
 		Node(int d)
@@ -18,7 +16,7 @@ class LinkedList {
 	{
 		Node n = head;
 		while (n != null) {
-			System.out.print(n.data + " ");
+			System.out.print(n.data + " /n");
 			n = n.next;
 		}
 	}
@@ -32,8 +30,7 @@ class LinkedList {
 		Node third = new Node(3);
 
 		llist.head.next = second;
-		second.next
-			= third; 
+		second.next = third; 
 
 		llist.printList();
 	}
