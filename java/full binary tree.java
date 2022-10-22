@@ -12,15 +12,10 @@ class Node {
 
 class BinaryTree {
   Node root;
-
-  // Check for Full Binary Tree
   boolean isFullBinaryTree(Node node) {
-
-  // Checking tree emptiness
   if (node == null)
     return true;
 
-  // Checking the children
   if (node.leftChild == null && node.rightChild == null)
     return true;
 
