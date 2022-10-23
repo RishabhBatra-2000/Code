@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+// counting sort implemented in java 
 class CountingSort {
   void countSort(int array[], int size) {
     int[] output = new int[size + 1];
@@ -34,11 +35,10 @@ class CountingSort {
 
   public static void main(String args[]) {
     int[] data = { 4, 2, 2, 8, 3, 3, 1 };
-    int len = 0;
     int size = data.length;
     CountingSort cs = new CountingSort();
     cs.countSort(data, size);
-    System.out.println("Sorted Array in Ascending Order: ");
+    System.out.println("\nsorted Array in ascending order->\n ");
     System.out.println(Arrays.toString(data));
   }
 }
