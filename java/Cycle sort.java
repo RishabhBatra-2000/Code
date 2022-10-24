@@ -22,7 +22,6 @@ public class MissingNumber {
 				swap(arr, i, correctpos);
 			}
 			else {
-
 				i++;
 			}
 		}
