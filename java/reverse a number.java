@@ -1,7 +1,7 @@
     import java.util.Scanner;
     class fact{  
      public static void main(String args[]){  
-      int fact=1,reverse = 0;  
+      int reverse = 0;  
       Scanner sc = new Scanner(System.in);
       System.out.println("Enter the number to reverse :");
       int number = sc.nextInt();
