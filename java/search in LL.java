@@ -48,12 +48,12 @@
       
             Main sList = new Main();  
       
-            // add nodes to the list  
+            // Add nodes to the list.
             sList.addNode(1);  
             sList.addNode(2);  
             sList.addNode(3);  
             sList.addNode(4);  
-      
+            // search the nodes in the list
             sList.searchNode(2);  
             sList.searchNode(7);  
         }}  
