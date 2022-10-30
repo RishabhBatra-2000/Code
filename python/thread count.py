@@ -8,7 +8,7 @@ def countdown(n,f):
 		n -= 1
 		time.sleep(1)
 		print('active threads',f)
-		print(threading.active_count())
+		print(int(threading.active_count()) - 1)
 		
 # Creating and launching the threads
 t = threading.Thread(target = countdown, args =(10, 't thread'))
