@@ -9,6 +9,8 @@ public class Main {
     cars.add("Ford");
     cars.add("BMW");
     cars.add("Mazda");
-    System.out.println(cars);
+    for (String i : cars) {
+      System.out.println(i);
+    }
   }
 }
